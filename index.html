@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello, ComicSense. I’m Shashank.</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style>
+      html {
+        background-color: black;
+        display: flex;
+        width: 100%;
+      }
+      div.page {
+        margin-top: 300px;
+        padding-left: 450px;
+        margin-left: 100px;
+        position: relative;
+        height: 375px;
+      }
+
+      div.page img.polaroid {
+        position: absolute;
+        left: -50px;
+        top: -100px;
+      }
+
+      h1 {
+        font-family: "Annie Use Your Telescope", sans-serif;
+        font-size: 55px;
+        line-height: 70px;
+        width: 600px;
+        color: white;
+      }
+      h1 strong,
+      a {
+        font-weight: bold;
+        font-size: 72px;
+        background: -webkit-linear-gradient(#90d5ec 0%, #fc575e 74%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      h1 strong {
+        font-size: 60px;
+      }
+
+      h2 {
+        font-family: "Annie Use Your Telescope", sans-serif;
+        font-size: 35px;
+        color: gray;
+        line-height: 45px;
+        width: 600px;
+      }
+
+      #footer {
+        margin-top: 200px;
+        background-color: #90d5ec;
+        background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
+
+        width: 1650px;
+        height: 400px;
+        position: relative;
+        padding-left: 50px;
+        padding-top: 20px;
+      }
+      #footer h1 {
+        
+        font-size: 120px;
+        font-weight: bold;
+        font-size: 72px;
+        background: -webkit-linear-gradient(#90d5ec 0%, #fc575e 74%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: absolute;
+        top: -70px;
+        left: 50px;
+      }
+      #footer p,
+      #footer a {
+        color: white;
+        font-size: 45px;
+        font-family: "Annie Use Your Telescope", sans-serif;
+      }
+      #footer p strong {
+        font-weight: bold;
+      }
+
+      #me img.polaroid {
+        top: -150px;
+        left: -15px;
+      }
+      #offices img.polaroid {
+        top: -90px;
+        left: -25px;
+      }
+      #thai img.polaroid {
+        top: -90px;
+        left: -0px;
+      }
+      #cat img.polaroid {
+        top: -30px;
+        left: -20px;
+      }
+      #cube img.polaroid {
+        top: -90px;
+        left: -40px;
+      }
+      #cube {
+        padding-top: 90px;
+      }
+
+      @media screen and (max-width: 600px) {
+        div.page {
+          margin-top: 300px;
+          padding-left: 450px;
+          margin-left: 100px;
+          position: relative;
+          height: 375px;
+          display: inline;
+          line-height: 40;
+          text-align: center;
+        }
+        #footer{
+          width: auto;
+        }
+      }
+      /* div.page {
+    margin-top: 300px;
+    padding-left: 450px;
+    margin-left: 100px;
+    position: relative;
+    height: 375px;
+    display: inline;
+    line-height: 40;
+    text-align: center;} */
+    </style>
+  </head>
+  <body>
+    <div class="page" id="me">
+      <img src="images/pol_me.png" class="polaroid" />
+      <h1>Hello, <strong>ComicSence</strong>. <br />I'm Shashank.</h1>
+    </div>
+
+    <div class="page" id="offices">
+      <img src="images/pol_offices.png" class="polaroid" />
+      <h1>
+        I want to build <strong>new</strong> and <strong>useful</strong> stuff
+        together with <strong>kickass Nakama</strong> that
+        <strong>care</strong>, we will find <strong>Onepiece</strong> .
+      </h1>
+    </div>
+
+    <div class="page" id="thai">
+      <img src="images/pol_thai.png" class="polaroid" />
+      <h1>
+        So I want to help you build <strong>ComicSence</strong>, coding all day
+        long.
+      </h1>
+      <h2>I'd love to work in HTML,CSS and JavaScript.</h2>
+    </div>
+
+    <div class="page" id="cat">
+      <img src="images/pol_cat.png" class="polaroid" />
+      <h1>I have graduated in <br /><strong>2020.</strong></h1>
+      <h2>
+        JavaScript, HTML, CSS, Python,ReactJS(can build basic react
+        applications), Smalltalk (in Japanese), MongoDB, node.js, , express.js,
+        mySQL, Buzzword, orewa shindeiru , bcan locate one piece using Google
+        Maps, C/C++ ...
+      </h2>
+    </div>
+
+    <div class="page" id="cube">
+      <img src="images/pol_cube.png" class="polaroid" />
+      <h1><strong>Otaku.</strong></h1>
+      <h2>
+        I have been watching anime since 4th grade and breaking stuff since 8th
+        Grade.
+      </h2>
+    </div>
+
+    <div class="page" id="amiga">
+      <img src="images/pol_amiga.png" class="polaroid" />
+      <h1>In <strong>love</strong> with tech <strong>since 2003</strong>.</h1>
+      <h2>It all started with me breaking tons of floppy disk .</h2>
+    </div>
+
+    <div class="page" id="word">
+      <img src="/images/pol_photoshop.png" class="polaroid" />
+      <h1>
+        Started using <strong>word</strong> <br />when I was 13 years old.
+      </h1>
+      <h2>
+        At the time, mainly to mess with my dads phd thesis and get scolding.
+      </h2>
+    </div>
+
+    <div class="page" id="uni">
+      <img src="images/pol_uni.png" class="polaroid" />
+      <h1>
+        Studied <strong>Software Engineering</strong>.<br />
+        in University
+      </h1>
+      <h2>
+        Joined a student club, organized fests, workshops,and donation camps.
+      </h2>
+    </div>
+
+    <div class="page" id="learning">
+      <img src="images/pol_learning.png" class="polaroid" />
+      <h1>
+        And then, <br />I started
+        <strong>building things rather than destroying</strong>.
+      </h1>
+      <h2>Most awesome thing I've ever done.</h2>
+    </div>
+
+    <div class="page" id="badges">
+      <img src="images/pol_badges.png" class="polaroid" />
+      <h1>
+        building/ built <br /><a href="https://github.com/kirit01/Adopt-Me"
+          >Adopt Me</a
+        >
+      </h1>
+      <h2>An online portal to adopt pets.</h2>
+    </div>
+
+    <div class="page" id="paper">
+      <img src="images/pol_paper.png" class="polaroid" />
+      <h1>
+        <strong
+          ><a href="https://kirit01.github.io/papertapPolygon/ "
+            >paper tap</a
+          ></strong
+        >
+      </h1>
+      <h2>Did a lot of freaky cross-domain JavaScript <br /></h2>
+    </div>
+
+    <div id="footer">
+      <h1>So... What's next?</h1>
+      <p>
+        1. Check out
+        <a href="http://www.linkedin.com/in/shahank/">my LinkedIn</a>.
+      </p>
+      <p>
+        2. Check out <a href="https://github.com/kirit01">my github repo.</a>
+      </p>
+      <p>3. Give me a call! <strong>+91 7550172686</strong></p>
+    </div>
+  </body>
+</html>
